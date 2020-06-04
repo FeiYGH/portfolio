@@ -19,15 +19,16 @@
 	<body class="is-preload">
 		<ul id="navbar">
 			<li><a href="#AboutMe">About me</a></li>
-			<li><a href="#Projects">My Projects</a></li>
+			<li><a href="#first">My Projects</a></li>
 			<li><a href="#Technologies">Technical Skills</a></li>
-			<li><a href="#ContactMe">Contact Me</a></li>
+			<li><a href="#ForFun">For Fun</a></li>
+			<li><a href="#contactMeHeader">Contact Me</a></li>
 		</ul>
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 
 				<!-- One -->
-					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" id="AboutMe">
 						<div class="content">
 							<div id="nameAndPic">
 								<img style="width:40%; border-radius:170px" id="profilePic"  src="images/bluebacksmaller.jpg"/>	
@@ -64,7 +65,7 @@
 										</p>
 									</div>
 									<ul class="actions stacked">
-										<li><a href="#first" class="button big wide smooth-scroll-middle">Resume</a></li>
+										<li><a target="_blank" href="https://www.dropbox.com/s/oxvq39784gm68lo/Fei%20Yang%20One%20Page%206%3A4%3A2020.pdf?dl=0" class="button big wide smooth-scroll-middle">Resume</a></li>
 									</ul>
 
 									<!-- <p class="major">feidyang@gmail.com</p> -->
@@ -188,7 +189,7 @@
 			
 
 				<!-- Six Programming Languages -->
-					<section class="wrapper style1 align-center">
+					<section class="wrapper style1 align-center" id="Technologies">
 						<div class="inner">
 							<h2>Technical Skills</h2>
 							<p class="major">Programming Languages</p>
@@ -376,8 +377,9 @@
 							</div>
 						</div>
 					</section>
+
 					<!-- Five Memes-->
-					<section class="wrapper style1 align-center">
+					<section class="wrapper style1 align-center" id="ForFun">
 						
 						<div class="inner">
 							<h2>Live well, Laugh often, Love well.</h2>
@@ -432,7 +434,7 @@
 										<img class="memeImg" src="images/gallery/fulls/codeToTest.jpg" alt="" />
 									</a>
 									<div class="caption">
-										<h3>CodeToTest</h3>
+										<h3>Testing Code</h3>
 										<p></p>
 										<ul class="actions fixed">
 											<li><span class="button small">See Bigger</span></li>
@@ -444,7 +446,7 @@
 										<img class="memeImg" src="images/gallery/fulls/shortcuts.jpg" alt="" />
 									</a>
 									<div class="caption">
-										<h3>Computer shortcuts gone too far</h3>
+										<h3>Computer Shortcuts Foot in Mouth</h3>
 										<p></p>
 										<ul class="actions fixed">
 											<li><span class="button small">See Bigger</span></li>
@@ -516,7 +518,7 @@
 										<img src="images/gallery/fulls/magicDoor.png" alt="" />
 									</a>
 									<div class="caption">
-										<h3>Magic Door</h3>
+										<h3>Bathroom Door</h3>
 										<p></p>
 										<ul class="actions fixed">
 											<li><span class="button small">See Bigger</span></li>
@@ -552,7 +554,7 @@
 										<img  src="images/gallery/fulls/noDeleteMeme.png" alt="" />
 									</a>
 									<div class="caption">
-										<h3></h3>
+										<h3>Hey, still working</h3>
 										<p></p>
 										<ul class="actions fixed">
 											<li><span class="button small">See Bigger</span></li>
@@ -591,7 +593,7 @@
 
 					
 
-				<!-- Seven -->
+				<!-- Seven Contact Me Section -->
 				
 					<div id="contactMeHeader" class="inner">
 						<h2>Contact Me</h2>
@@ -631,11 +633,7 @@
 										<label for="human">I am a human and not a robot</label>
 									</div> -->
 								</div>
-								<!-- <ul class="actions">
-									
-									<li><input type="submit" value="Send Message" /></li>
-									
-								</ul> -->
+
 								<ul class="actions special">
 									<li><input type="submit" value="Send Message" /></li>
 									<!-- <li><input type="submit" name="submit" id="submit" value="Send Message" /></li> -->
@@ -647,6 +645,16 @@
 
 						</div>
 					</section>
+
+				<!-- Seven -->
+				
+			<div id="photoCreditsDiv" class="inner">
+				<h2>Photo<br/> Credits</h2>
+				<ol>
+					<li><a target="_blank" href="https://commons.wikimedia.org/wiki/File:Argentina_-_Bariloche_trekking_012_-_Glacier_Casta%C3%B1o_Overo_spilling_water_and_ice_over_the_cliff_on_Cerro_Tronador_(6834286802).jpg">Argentina - Bariloche trekking 012 - Glacier Castaño Overo spilling water and ice over the cliff on Cerro Tronador</a> by McKay Savage from Wikimedia Commons</li>
+					<li><a target="_blank" href="https://www.shutterstock.com/image-photo/oak-tree-green-leaves-on-background-281970824">Oak tree with green leaves on a background of the night sky and the Milky Way</a> by AlexussK from Shutterstock</li>
+				</ol>
+			</div>
 
 				<!-- Footer -->
 					<footer class="wrapper style1 align-center">
@@ -681,7 +689,7 @@
 								</a>
 								
 							</div>
-							<a id="photoCreditsLink" href="credits.html" target="_blank" >Photo Credits</a>
+							<a id="photoCreditsLink" href="#photoCreditsDiv">Photo Credits</a>
 							<!-- <ul class="icons">
 								<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -689,11 +697,12 @@
 								<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 								<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
 							</ul> -->
-							<p id="copyrightBottom">&copy; Fei Yang Portfolio. Design: Fei Yang and <a href="https://html5up.net">HTML5 UP</a>.</p>
+							<p id="copyrightBottom">&copy; Fei Yang. All rights reserved. Design: Fei Yang and <a href="https://html5up.net">HTML5 UP</a>.</p>
 						</div>
 					</footer>
 
 			</div>
+			
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
