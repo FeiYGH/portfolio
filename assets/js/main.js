@@ -394,6 +394,6 @@ function starsTwinkle() {
   }
   
   
-  window.onload = function() {
-	 starsTwinkle();
-  }
+//   window.onload = function() {
+// 	 starsTwinkle();
+//   }
