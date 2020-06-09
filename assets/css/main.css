@@ -8774,7 +8774,8 @@ input, select, textarea {
 		}
 
 		#contactSection{
-			background-image: url("../../images/BigTree.jpg");
+			/* background-image: url("../../images/BigTree.jpg"); */
+			background-image: url("https://greatreads-aa-dev.s3-us-west-1.amazonaws.com/Fei-Portfolio/BigTree.jpg");
 			background-size:cover;
 			background-position:0% 25%;
 			position:relative;
